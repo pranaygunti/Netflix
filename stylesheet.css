@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.netflix{
+    background-image:url("background.jpg");
+    position: relative;
+}
+/* .mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+} */
+ .second-paragraph{
+    background-color: black;
+    
+}
+.c-logo{
+    max-width: 100px;
+}
+ .paragraph{
+    background-color: black;
+}
+ .mobile{
+    background-color: black;
+}
+.c-border-top{
+    border-top:5px solid rgb(77, 75, 73);
+}
+.third-part{
+    background-color: black;
+}
+.questions{
+    background-color: black;
+}
+.accordion-button{
+    background-color: rgb(62, 63, 63);
+    border: 5px black solid;
+    
+}
+.accordion-collapse{
+    background-color: aqua;
+}
+
+
+@media (max-width: 768px) {
+
+    .c-fs-1{
+        font-size:26px !important;
+    }
+    .c-fs-4{
+        font-size:18px !important;
+    }
+}
